@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@1,700&display=swap');
+body{
+   background: url(Capture\ d’écran\ 2023-12-05\ à\ 17.10.27\ copie\ 3.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-color:rgb (3, 3, 73);
+}
+
+
+#circle1{
+    height: 60px;
+    width: 60px;
+    background: url(ICHIGO\ LOGO.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    border-radius: 150px;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(242, 239, 245);
+    font-family: 'Brygada 1918', serif;
+}
+
+
+h2{
+    text-align: left;
+    color: rgb(242, 239, 245);
+    font-family: 'Brygada 1918', serif;
+}
+
+
+.logo{
+    text-align: center;
+    text-decoration: none;
+}
+.logo img{
+    display: block;
+    margin: 0 auto;
+
+}
+
+.logo p{
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Brygada 1918', serif;
+    color: rgb(242, 239, 245);
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo-box{
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 170px;
+}
+hr{
+    color: rgb(242, 239, 245);
+}
+
+.bleach-box{
+    background-color: black;
+    max-width: 170px;
+    padding: 5px;
+    border-radius: 5px;
+    background-position: center;
+}
+
+.bleach p{
+    color: rgb(242, 239, 245);
+    font-family: 'Brygada 1918', serif;
+    margin-top: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+
+
+}
+.bleach{
+    text-decoration: none;
+    text-align: center;
+}
+.bleach-box, .marvel-box, .one_piece-box, .logo-box{
+    display: inline-block;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    resize: horizontal;
+}
+
+.marvel-box{
+    background-color: black;
+    max-width:max-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.Marvel{
+    text-decoration: none;
+
+}
+.Marvel p{
+    color: rgb(242, 239, 245);
+    font-family: 'Brygada 1918', serif;
+    margin-top: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.big-box {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.one_piece-box{
+    background-color: black;
+    max-width:max-content;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 20px; 
+}
+
+.one_piece{
+    text-decoration: none;
+
+}
+.one_piece p{
+    color: rgb(242, 239, 245);
+    font-family: 'Brygada 1918', serif;
+    margin-top: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.aide-container {
+    display: grid; 
+  
+ }
+.aide{
+    background-color: rgba(0, 0, 0, 0.552);
+    color: rgb(242, 239, 245);
+    font-family: 'Brygada 1918', serif;
+
+
+}
+
+.aide1{
+    border-color: black;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "i1 i2"
+    "ta ta"
+    "vi bt";
+}
+
+input, textarea{
+    margin: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-family: 'Brygada 1918', serif;
+    height: 40px;
+    resize: none;
+}
+
+textarea{
+    grid-area: ta;
+}
+#btn-submit{
+    grid-area: bt;
+    cursor: pointer;
+}
+#btn-submit:hover{
+    background: rgb(3, 3, 61);
+    color: white;
+}
+.aide-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    justify-items: center;
+    align-items: center;
+}
+.Aide{
+    margin-left: 10px;
+    size: 1rem;
+}
